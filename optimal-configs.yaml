@@ -1,6 +1,6 @@
-generated: 2026-06-08 12:51
+generated: 2026-06-08 14:21
 gpu: No GPU (CPU-only)
-vram_gb: 16
+vram_gb: 0
 notes:
 - 'gpu_sweep:      best num_gpu (layer offload) at default ctx (from gpu sweep)'
 - 'ctx_sweep:      largest stable num_ctx at full GPU offload (from ctx sweep)'
