@@ -1,0 +1,11 @@
+generated: 2026-06-08 12:50
+gpu: No GPU (CPU-only)
+vram_gb: 16
+notes:
+- 'gpu_sweep:      best num_gpu (layer offload) at default ctx (from gpu sweep)'
+- 'ctx_sweep:      largest stable num_ctx at full GPU offload (from ctx sweep)'
+- 'matrix_surface: best point on the 2-D gpu x ctx matrix. Source is the ctx'
+- '                sweep when available; otherwise a utility-weighted optimum'
+- '                (score = tps * log2(num_ctx)) computed from matrix cells.'
+models: {}
+
